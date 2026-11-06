@@ -44,11 +44,11 @@ The datasets consists of 11 interconnected tables representing different aspects
 
 # Data Model 
 
-# Table                      Description 
+# Table           |           Description 
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-dim_carriers               Contains carrier information used to analyze transportation performance 
+dim_carriers      |           Contains carrier information used to analyze transportation performance 
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-dim_date                   Date dimension used for time-based analysis and reporting 
+dim_date          |         Date dimension used for time-based analysis and reporting 
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-dim_lane                   Contains transportation lane information for route- level analysis 
+dim_lane          |         Contains transportation lane information for route- level analysis 
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
