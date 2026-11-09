@@ -44,7 +44,18 @@ The datasets consists of 11 interconnected tables representing different aspects
 
 | Table            |           Description |
 |---|---|
-dim_carriers      |           Contains carrier information used to analyze transportation performance 
-dim_date          |         Date dimension used for time-based analysis and reporting 
-dim_lane          |         Contains transportation lane information for route- level analysis 
+dim_carriers      |    Contains carrier information used to analyze transportation performance 
+dim_date          |    Date dimension used for time-based analysis and reporting 
+dim_lane          |    Contains transportation lane information for route- level analysis 
+dim_products      |    Contains product information for product- level analysis 
+dim_suppliers     |    Contains supplier information for suppliers performance analysis 
+dim_warehouses    |    C0ntains warehouse information for inventory and operational analysis 
+fact_inventory_monthly| Contains monthly inventory records and stockout indicators 
+fact_purchase_orders | Contains purchase order information used to analyze procurement and replenishment
+fact_shipments    |    Contains shipment information, delivery performance, transit time, freight costs, and quality- related metrics 
+ref_disruotion_events  | Contains supply chain disruption information for investigating operational interuptions
+ref_market_indicatior  | Contains market-related indicators that may provide context for supply chain performance 
+
+
+
 
