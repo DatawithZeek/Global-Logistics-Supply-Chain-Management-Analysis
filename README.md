@@ -56,6 +56,60 @@ fact_shipments    |    Contains shipment information, delivery performance, tran
 ref_disruotion_events  | Contains supply chain disruption information for investigating operational interuptions
 ref_market_indicatior  | Contains market-related indicators that may provide context for supply chain performance 
 
+# Tool & Technology 
+| Tool |Purpose |
+|---|---|
+Power Query | Data cleaning and transformation 
+Power BI    | Data modelling, visualization, and dashboard development 
+DAX         | KPI calculations and analytical measures
+GitHub      | Project documentation and portfolio presentation 
+
+# Data Cleaning & Preparation 
+
+Data preparation was an important stage of the project to ensure consistency, accuracy, and reliability before analysis.
+
+The cleaning process focused on the following areas:
+
+1. Data Inspection
+   - Reviewed the structure of all 11 tables
+   - Identify relevant columns for delivery, inventory, procurement, and cost analysis
+   - Examine data types and fields formats
+   - Identified key fields required for relationships between tables
+2. Data Type Validation
+   - Verified date fields were stored using appropriate date formats
+   - Checked numerical fields such as quantities, freight costs, and transit days
+   - Ensured identifier fields such as suppliers IDs, product IDs, and shipment IDs were treated as catergorical identifiers rather than measures
+3. Missing Value Assessment
+   - Identified missing values in relevant analytical fields
+   - Evaluate missing records should be retained / flagged
+   - Avoided replacing missing values with arbitrary figures that could distort the analysis
+4. Duplicate Record Assessment
+   - Checked for duplicate records in fact and dimension tables
+   - Reviewed potential duplicate shipment, purchase order, and inventory observations
+   - Ensured aggregation methods reflected the appropriate level of detail in each table
+5. Data Consistency
+   - Validated binary indicator fields such as on_time_flag, in_full_flag, otif_flag, and stockout_flag
+   - Reviewed consistency between delivery quantities and rejected quantities
+   - Investigated the existing defect rate percentage against quantity-based calculations
+ 6. Data Modeling
+   - Organized the dataset using a dimensional model
+   - Connected fact tables to relevant dimension tables using appropriate keys
+   - Used the date dimension to support time-based analysis
+
+      # Key Performance Indicators (KPIs)
+
+     The following KPIs were developed to measure supply chain performance
+     
+     KPI | Description |
+     |---|---|
+     On-Time Delivery Rate | Percentage of shipments delivered on time
+     OTIF Rate  | Percentage of shipments delivered both on time and in full
+     Late Deliveries | Number of shipments that failed to arrive on time
+     Short Deliveries | number of shipments that were not delivered in full
+     Short Delivery Rate | Percentage of valid shipment observations that were not delivered in full
+     
+     
+      
 
 
 
