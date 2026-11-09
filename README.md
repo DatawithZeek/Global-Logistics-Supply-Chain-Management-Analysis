@@ -38,12 +38,12 @@ The analysis aims to identify the root causes of supply chain inefficiencies and
   7. Identify opportunities to improve supply chain efficiency and cost management
   8. Provide actionable recommendations for management
 
-# Data Description 
+# # Data Description 
 
 The datasets consists of 11 interconnected tables representing different aspects of global logistics and supply chain operations
 
- Table            |           Description 
-
+| Table            |           Description |
+|---|---|
 dim_carriers      |           Contains carrier information used to analyze transportation performance 
 dim_date          |         Date dimension used for time-based analysis and reporting 
 dim_lane          |         Contains transportation lane information for route- level analysis 
