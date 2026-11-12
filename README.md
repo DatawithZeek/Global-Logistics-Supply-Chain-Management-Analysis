@@ -100,7 +100,7 @@ The cleaning process focused on the following areas:
 
      The following KPIs were developed to measure supply chain performance
      
-     KPI | Description |
+     | KPI | Description |
      |---|---|
      On-Time Delivery Rate | Percentage of shipments delivered on time
      OTIF Rate  | Percentage of shipments delivered both on time and in full
