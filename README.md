@@ -98,19 +98,19 @@ The cleaning process focused on the following areas:
 
  # # Key Performance Indicators (KPIs)
 
-     The following KPIs were developed to measure supply chain performance
+ The following KPIs were developed to measure supply chain performance
      
-     | KPI | Description |
-     |---|---|
-     On-Time Delivery Rate | Percentage of shipments delivered on time
-     OTIF Rate  | Percentage of shipments delivered both on time and in full
-     Late Deliveries | Number of shipments that failed to arrive on time
-     Short Deliveries | Number of shipments that were not delivered in full
-     Stockout Rate | Percentage of inventory observations marked as stockout
-     Freight Cost | Total transportation expenditure recorded in the shipment data
-     Holding Cost | Inventory holding expenditure, where supported by the dataset
-     Average Lead Time Days | Average actual transit time in days
-     Defect Rate | proportion of delivered quantity rejected due to quality issues
+ | KPI | Description |
+ |---|---|
+ On-Time Delivery Rate  | Percentage of shipments delivered on time
+ OTIF Rate              | Percentage of shipments delivered both on time and in full
+ Late Deliveries        | Number of shipments that failed to arrive on time
+ Short Deliveries       | Number of shipments that were not delivered in full
+ Stockout Rate          | Percentage of inventory observations marked as stockout
+ Freight Cost           | Total transportation expenditure recorded in the shipment data
+ Holding Cost           | Inventory holding expenditure, where supported by the dataset
+ Average Lead Time Days | Average actual transit time in days
+ Defect Rate            | proportion of delivered quantity rejected due to quality issues
 
 # Analysis & Business Questions 
 
