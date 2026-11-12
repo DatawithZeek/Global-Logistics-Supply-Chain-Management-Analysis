@@ -96,7 +96,7 @@ The cleaning process focused on the following areas:
    - Connected fact tables to relevant dimension tables using appropriate keys
    - Used the date dimension to support time-based analysis
 
- # Key Performance Indicators (KPIs)
+ # # Key Performance Indicators (KPIs)
 
      The following KPIs were developed to measure supply chain performance
      
