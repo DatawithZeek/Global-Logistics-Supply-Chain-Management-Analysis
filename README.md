@@ -96,7 +96,7 @@ The cleaning process focused on the following areas:
    - Connected fact tables to relevant dimension tables using appropriate keys
    - Used the date dimension to support time-based analysis
 
-      # Key Performance Indicators (KPIs)
+ # Key Performance Indicators (KPIs)
 
      The following KPIs were developed to measure supply chain performance
      
@@ -105,9 +105,56 @@ The cleaning process focused on the following areas:
      On-Time Delivery Rate | Percentage of shipments delivered on time
      OTIF Rate  | Percentage of shipments delivered both on time and in full
      Late Deliveries | Number of shipments that failed to arrive on time
-     Short Deliveries | number of shipments that were not delivered in full
-     Short Delivery Rate | Percentage of valid shipment observations that were not delivered in full
-     
+     Short Deliveries | Number of shipments that were not delivered in full
+     Stockout Rate | Percentage of inventory observations marked as stockout
+     Freight Cost | Total transportation expenditure recorded in the shipment data
+     Holding Cost | Inventory holding expenditure, where supported by the dataset
+     Average Lead Time Days | Average actual transit time in days
+     Defect Rate | proportion of delivered quantity rejected due to quality issues
+
+# Analysis & Business Questions 
+
+The analysis was guided by the following business questions:
+
+  1. What percentage of shipments are delivered on time?
+  2. How many deliveries are short, and what is the short delivery rate?
+  3. What is the company's overall OTIF performance?
+  4. Which products and warehouses experience the most stockouts?
+  5. Which suppliers have the poorest delivery performance?
+  6. Which carrier and transportation lanes have the highest freight costs?
+  7. How can inventory holding costs be balanced against stockout risk?
+  8. Which products and suppliers have the highest defect rates?
+  9. Are transportation delays associated with stockouts?
+  10. Which transportation lanes provide the best balance between cost and delivery reliability?
+
+# Key Findings 
+
+ 1. Delivery Performance
+  - Overall On-Time Delivery Rate **86.10%**
+  - Overall OTIF Rate **80.98%**
+  - **SUP-100326 & SUP-101400** are with the lowest OTIF performance of **20%**each 
+  - **CAR-031** is the with the highest late delivery frequency of **1812** 
+    
+2. Short Deliveries
+  - Total short deliveries **5K**
+  - Short Deliveries rate **5.91%**
+  - **Apparel** is the highest short deliveries of **984** 
+
+3. Inventory & Stockouts
+  - Overall Stockout Rate **11.61%**
+  - **WH-EWR-01 848** is the highest stockout frequency 
+  - **Apparel** is most frequently affected by stockouts 
+
+4. Logistics Costs
+  - Total Freight Cost **$1.53BN**
+  - **Air** is the highest freight cost
+  - **CAR-014** Is the highest freight cost per unit of **4.52**
+
+5. Product Quality
+  - Overall Defect Rate **1.59%**
+  - Total Rejected Quantity **$19.5M**
+  - **SUP-100971** with the highest rejection rate
+    
      
       
 
